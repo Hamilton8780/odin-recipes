@@ -1,0 +1,75 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.descrição,
+.link{
+    text-align: center;
+    font-size: 20px;
+}
+.home{
+    background-color: #4b423d;
+    color: #cfd4da;
+}
+
+.bolo_de_cenoura{
+    background-color: #e99c02;
+}
+
+.macarrão{
+    background-color: #ebcb82;
+}
+
+.tacos{
+    background-color: #c1c497;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 46px;
+}
+
+.imagem{
+    text-align: center;
+
+}
+
+.imagem.capa{
+    text-align: left;
+    background-color: #cfd4da;
+
+}
+
+.igredientes,
+.preparo,
+.receitas,
+.capa{
+    box-shadow: 7px 7px 7px rgb(15, 15, 13);
+    background-color: aliceblue;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.receitas{
+    font-size: 24px;
+    color: #4b423d;
+}
+
+.lista{
+    float: right;
+    width: 500px;
+}
+
+.indice{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 36px;
+    color: #cfd4da;
+    background-color: #4b423d;
+    height: 60px;
+    border-radius: 5px;
+    padding: 1px;
+}
