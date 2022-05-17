@@ -35,7 +35,8 @@ nav {
 }
 
 nav ul {
-    width: 50%;
+    max-width: 700px;
+    min-width: 350px;
     display: flex;
     margin: auto;
 }
@@ -66,7 +67,8 @@ nav ul li a:hover {
 #capa,
 .imagem {
     position: relative;
-    width: 50%;
+    max-width: 700px;
+    min-width: 350px;
     padding: 10px;
     margin: 10px auto;
     border-radius: 5px;
@@ -78,12 +80,14 @@ nav ul li a:hover {
 }
 
 article {
-    width: 65%;
+    max-width: 700px;
+    min-width: 350px;
     font-size: 1.1em;
     margin: auto;
     box-shadow: 0px 7px 7px rgba(15, 15, 13, 0.3);
 }
-h2{
+
+h2 {
     font-weight: 500;
 }
 
@@ -102,7 +106,7 @@ section li {
 .igredientes,
 .preparo,
 .receitas,
-.capa {  
+.capa {
     background-color: white;
     padding: 15px;
     margin: 10px;
@@ -158,4 +162,24 @@ section li {
 
 #tacos {
     background-color: #dfcaab;
+}
+
+a.link{
+    padding: 5px;
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a.link:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a.link:active{
+    color: lightslategray;
+}
+
+a.link::before{
+    content: "🏠\00a0";
 }
