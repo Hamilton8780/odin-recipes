@@ -78,12 +78,12 @@ nav ul li a:hover {
 }
 
 article {
-    width: 50%;
+    width: 65%;
+    font-size: 1.1em;
     margin: auto;
     box-shadow: 0px 7px 7px rgba(15, 15, 13, 0.3);
 }
 h2{
-    font-size: 1.1em;
     font-weight: 500;
 }
 
