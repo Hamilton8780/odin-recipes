@@ -1,69 +1,116 @@
-*{
-    font-family:Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Tapestry&display=swap');
+
+* {
+    font-family: Ubuntu;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
 }
 
 .descrição,
-.link{
+.link {
     text-align: center;
     font-size: 20px;
 }
-.home{
-    background-color: #4b423d;
+
+.home {
+    height: 100%;
+    background-image: linear-gradient(to bottom, #4b423d, #6b5e58, #918077fb);
     color: #cfd4da;
 }
 
-.bolo_de_cenoura{
-    background-color: #e99c02;
-}
 
-.macarrão{
-    background-color: #ebcb82;
-}
-
-.tacos{
-    background-color: #c1c497;
-}
-
-.titulo{
+.titulo {
+    font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-size: 46px;
+    font-size: 60px;
+    font-weight: 500;
+    padding: 15px 0px;
 }
 
-.imagem{
-    text-align: center;
-
+nav {
+    position: relative;
+    margin-top: 10px;
 }
 
-.imagem.capa{
-    text-align: left;
+nav ul {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5px 10px;
+    margin: auto;
+}
+
+nav ul li a {
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #cfd4da;
+}
+
+a::before {
+    content: "\1F4D6\00A0\00A0";
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #4b423d;
     background-color: #cfd4da;
+}
 
+#capa,
+.imagem {
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: #cfd4da;
+}
+
+#livro {
+    width: 100%;
+}
+
+article {
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 7px 7px rgba(15, 15, 13, 0.3);
+}
+h2{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+section li {
+    list-style-position: inside;
+    line-height: 1.2em;
+    padding: 5px;
+    text-align: justify;
+    color: black;
 }
 
 .igredientes,
 .preparo,
 .receitas,
-.capa{
-    box-shadow: 7px 7px 7px rgb(15, 15, 13);
-    background-color: aliceblue;
+.capa {  
+    background-color: white;
     padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
     border-radius: 5px;
 }
-.receitas{
+
+.receitas {
     font-size: 24px;
     color: #4b423d;
 }
 
-.lista{
-    float: right;
-    width: 500px;
-}
-
-.indice{
+.indice {
     text-align: center;
     margin-top: 10px;
     font-size: 36px;
@@ -72,4 +119,39 @@
     height: 60px;
     border-radius: 5px;
     padding: 1px;
+}
+
+
+.foto-receita {
+    position: relative;
+    display: flex;
+}
+
+.foto {
+    margin: auto;
+}
+
+.bolo_de_cenoura {
+    background-color: #e99c02;
+}
+
+#bolo-de-cenoura {
+    background-color: #321b15;
+    color: #e99c02;
+}
+
+.macarrão {
+    background-color: #ebcb82;
+}
+
+#macarrao {
+    background-color: #a2a71e9c;
+}
+
+.tacos {
+    background-color: #c1c497;
+}
+
+#tacos {
+    background-color: #dfcaab;
 }
