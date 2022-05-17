@@ -87,6 +87,10 @@ h2{
     font-weight: 500;
 }
 
+p {
+    padding: 10px;
+}
+
 section li {
     list-style-position: inside;
     line-height: 1.2em;
@@ -121,15 +125,13 @@ section li {
     padding: 1px;
 }
 
-
 .foto-receita {
     position: relative;
-    display: flex;
+    width: 100%;
 }
 
 .foto {
-    position: relative;
-    max-width: 100%;
+    width: 100%;
     margin: auto;
 }
 
