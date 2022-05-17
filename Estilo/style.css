@@ -39,12 +39,13 @@ nav ul {
     min-width: 350px;
     display: flex;
     margin: auto;
+    justify-content: space-around;
 }
 
 nav ul li {
     list-style: none;
     padding: 5px 10px;
-    margin: auto;
+    
 }
 
 nav ul li a {
