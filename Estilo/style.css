@@ -163,7 +163,8 @@ section li {
 }
 
 a.link{
-    padding: 5px;
+    padding: 0px 5px;
+    line-height: 35px;
     color: blue;
     text-decoration: none;
     margin-left: 10px;
