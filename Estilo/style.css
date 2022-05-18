@@ -15,7 +15,7 @@
 }
 
 .home {
-    height: auto;
+    height: 100vh;
     background-image: linear-gradient(to bottom, #4b423d, #6b5e58, #918077fb);
     color: #cfd4da;
 }
@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 a::before {
-    content: "\1F4D6\00A0\00A0";
+    content: "\1F4D6\00A0";
 }
 
 nav ul li a:hover {
